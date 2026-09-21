@@ -1,0 +1,2 @@
+# Cey Studios
+Türkçe uygulama portföyü. Ziyaretçi uygulamaların ne işe yaradığını öğrenir ve doğrulanmış mağaza bağlantısı varsa mağazaya gider. Uygulamalar data/apps.json üzerinden tek tek eklenir. Mağaza durumu, kullanıcı sayıları, puanlar veya referanslar uydurulmaz. Yönetim paneli ve kullanıcı hesabı kapsam dışıdır. Ürün açıklamaları ilgili GitHub depolarından doğrulanmıştır; Selaora adı kullanıcının belirttiği yeni marka adıdır.

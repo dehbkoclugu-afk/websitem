@@ -1,0 +1,213 @@
+[
+  {
+    "slug": "fasttrack",
+    "name": "FastTrack",
+    "category": "Sağlık & yaşam",
+    "color": "#dfff89",
+    "ink": "#23351c",
+    "headline": "Kendi ritmini bul.",
+    "description": "Aralıklı oruç, su ve kilo takibini günlük hayatına uyarlayan kişisel takip uygulaması.",
+    "features": [
+      [
+        "Sana uyan oruç planı",
+        "Farklı oruç planları arasından düzenine uygun olanı seç, geçen ve kalan süreyi takip et."
+      ],
+      [
+        "Günlük kayıtlar",
+        "Su tüketimini ve kilo değişimini tek yerde kaydet."
+      ],
+      [
+        "İlerlemeni gör",
+        "Tamamlanan oruçlarını ve zaman içindeki düzenini raporlarla incele."
+      ]
+    ],
+    "repo": "fasting_app",
+    "storeUrl": null,
+    "image": null
+  },
+  {
+    "slug": "neurosound",
+    "name": "NeuroSound",
+    "category": "Ses & odak",
+    "color": "#172d38",
+    "ink": "#f0ede5",
+    "headline": "Günün sesini değiştir.",
+    "description": "Uyku, odaklanma ve dinlenme anlarına eşlik eden sesler. Kendi ses ortamını oluştur, sana zaman kalsın.",
+    "features": [
+      [
+        "İhtiyacına göre dinle",
+        "Uyku, odak, rahatlama ve meditasyon için düzenlenmiş sesleri keşfet."
+      ],
+      [
+        "Kendi karışımın",
+        "Dört sese kadar katman oluştur, ses seviyelerini ayarla ve karışımını kaydet."
+      ],
+      [
+        "Sakin bir kapanış",
+        "Uyku zamanlayıcısı sesleri yavaşça azaltır. Favorilerin cihazında saklanır."
+      ]
+    ],
+    "repo": "neurosound",
+    "storeUrl": null,
+    "image": "neurosound.jpg",
+    "icon": "neurosound-icon.png"
+  },
+  {
+    "slug": "selaora",
+    "name": "Selaora",
+    "category": "Dua & maneviyat",
+    "color": "#f3cf6d",
+    "ink": "#372a11",
+    "headline": "Kendine bir an ayır.",
+    "description": "Günlük dua, Kutsal Kitap okumaları ve şükran günlüğüyle kişisel bir manevi rutin oluştur.",
+    "features": [
+      [
+        "Günlük okumalar",
+        "Günün ayeti ve okuma planlarıyla kendi hızında ilerle."
+      ],
+      [
+        "Dua zamanı",
+        "Farklı konulardaki rehberli duaları keşfet."
+      ],
+      [
+        "Kişisel günlük",
+        "Şükran notlarını ve dua niyetlerini bir arada tut."
+      ]
+    ],
+    "repo": "Dailyprayer",
+    "storeUrl": null,
+    "image": "selaora.webp"
+  },
+  {
+    "slug": "ihvan",
+    "name": "İhvan",
+    "category": "Dua & maneviyat",
+    "color": "#d0e8dc",
+    "ink": "#193c2d",
+    "headline": "Günlük hayatına bir durak.",
+    "description": "Kur’an okuma, namaz takibi, dua ve zikir alışkanlıklarını bir araya getiren manevi yol arkadaşı.",
+    "features": [
+      [
+        "Okumaya devam et",
+        "Sure ve cüzler arasında gezin, ayetlerini işaretle ve kaldığın yeri koru."
+      ],
+      [
+        "Vakitleri takip et",
+        "Namaz vakitlerini ve kıble yönünü görüntüle; istediğin hatırlatmaları aç."
+      ],
+      [
+        "Kendi düzenin",
+        "Dua, zikir ve kişisel notlarınla günlük rutinini oluştur."
+      ]
+    ],
+    "repo": "ihvan",
+    "storeUrl": null,
+    "image": null
+  },
+  {
+    "slug": "sakin",
+    "name": "Sakin",
+    "category": "Meditasyon",
+    "color": "#e0e8ff",
+    "ink": "#263952",
+    "headline": "Bir nefeslik boşluk.",
+    "description": "Türkçe yönlendirmeli meditasyonlarla gün içinde kendine ayırdığın zamana eşlik eder.",
+    "features": [
+      [
+        "Türkçe rehberlik",
+        "Yönlendirmeli meditasyon içerikleriyle pratiğine başla."
+      ],
+      [
+        "Dinleme deneyimi",
+        "Ses odaklı seanslarla dikkatini kendine çevir."
+      ],
+      [
+        "Kendi hızında",
+        "Meditasyonu günlük hayatında sana uygun bir yere yerleştir."
+      ]
+    ],
+    "repo": "Meditasyon",
+    "storeUrl": null,
+    "image": null
+  },
+  {
+    "slug": "regl-takip",
+    "name": "Regl Takip",
+    "category": "Sağlık & yaşam",
+    "color": "#f4d7e0",
+    "ink": "#602840",
+    "headline": "Döngünü daha iyi tanı.",
+    "description": "Adet takvimi, belirti kayıtları ve kişisel döngü geçmişi. Kendi bedenini kendi kayıtlarınla takip et.",
+    "features": [
+      [
+        "Döngü takvimi",
+        "Geçmiş kayıtlarını ve kayıtlarına dayalı tahminleri birlikte gör."
+      ],
+      [
+        "Belirti ve ruh hâli",
+        "Günlük değişimlerini not al, zaman içindeki örüntüleri incele."
+      ],
+      [
+        "Kişisel kayıtlar",
+        "Verilerini cihazında tut; gerektiğinde özetini dışa aktar."
+      ]
+    ],
+    "note": "Tahminler tıbbi tanı veya doğum kontrol yöntemi değildir.",
+    "repo": "regl-takip",
+    "storeUrl": null,
+    "image": null
+  },
+  {
+    "slug": "fal",
+    "name": "Fal",
+    "category": "Eğlence & keşif",
+    "color": "#dad1f5",
+    "ink": "#382c51",
+    "headline": "Merakına yer aç.",
+    "description": "Kahve falı, tarot, rüya ve doğum haritası deneyimlerini bir araya getiren keşif uygulaması.",
+    "features": [
+      [
+        "Farklı ritüeller",
+        "Kahve, tarot ve rüya yorumları arasında keşfe çık."
+      ],
+      [
+        "Doğum haritası",
+        "Doğum bilgilerine göre hazırlanan astroloji yorumlarını incele."
+      ],
+      [
+        "Kişisel arşiv",
+        "Önceki yorumlarını ve notlarını yeniden ziyaret et."
+      ]
+    ],
+    "note": "Eğlence amaçlıdır; profesyonel danışmanlık yerine geçmez.",
+    "repo": "fal",
+    "storeUrl": null,
+    "image": null
+  },
+  {
+    "slug": "secret-chapters",
+    "name": "Secret Chapters",
+    "category": "İnteraktif hikâye",
+    "color": "#f4a785",
+    "ink": "#50291f",
+    "headline": "Bu hikâyede söz senin.",
+    "description": "Karakterlerle konuştuğun, seçimlerinle yön verdiğin interaktif romantik hikâye projesi.",
+    "features": [
+      [
+        "Hikâyenin içinde",
+        "Romantik dizilerde başrolü üstlen, karakterlerle kendi cümlelerinle konuş."
+      ],
+      [
+        "Hatırlanan seçimler",
+        "Önceki seçimlerin ve konuşmaların sonraki sahneleri etkiler."
+      ],
+      [
+        "Bölüm bölüm keşif",
+        "Karakterlerin dünyasını ve hikâyenin farklı yollarını tanı."
+      ]
+    ],
+    "repo": "hikaye",
+    "storeUrl": null,
+    "image": null
+  }
+]
