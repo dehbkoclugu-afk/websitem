@@ -1,4 +1,9 @@
-# Cey Studios design
-Mode: Experience. A light, typographic studio portfolio with cobalt identity, asymmetric feature layout and product-specific color fields. Native HTML and CSS; no runtime dependencies.
-Tokens: background #f8f9fb, foreground #171a22, muted #58616f, accent #2454e6, border #dce0e8. Display and body: self-hosted Manrope with sans-serif fallback. Body 16px minimum, labels 14px, display fluid 48–96px. Buttons pill; product panels 24px radius. Reading width 65ch. Spacing: 8/16/24/40/64/96px. Motion: brief ease-out on link hover, no scroll hijacking, respect reduced motion. Product color fields do not change navigation or action tokens.
-Signature: oversized lowercase wordmark and a split feature wall, followed by a two-column product catalogue. Detail pages reuse the same palette and shared navigation.
+# Cey Studios design — September 2026
+
+Visual thesis: a confident editorial app studio, with large sans/serif headlines, cobalt accents, a cinematic asymmetric app showcase and a compact, legible portfolio.
+
+Paper #f7f7f2; ink #20231f; accent #324cdc. Self-hosted Manrope and system Georgia display italic. Harder 5px panel corners replace generic rounded cards. Forest imagery, acid green FastTrack and twilight Selaora remain app-specific; no fabricated screenshots or download claims.
+
+Magic UI MCP 2.0.0 supplied Bento Grid, Blur Fade and Magic Card sources. Their layout and interaction patterns are adapted to the existing dependency-free static architecture (see docs/MAGIC-UI.md). Three featured projects lead into the eight-app catalogue. Detail pages share navigation, typography, numbered feature rows and context-aware next apps.
+
+No new runtime framework. Progressive enhancement: content and navigation work without JS. Entrance animation runs once; pointer spotlight is fine-pointer only. Reduced-motion users receive no animation. App data and store links remain in data/apps.json.
