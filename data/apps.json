@@ -23,18 +23,45 @@
       "version": "16.1.0",
       "updated": "27 Şubat 2026",
       "rated": "PEGI 3",
-      "highlights": ["19+ özellik", "33 Buddy animasyonu", "DEHB dostu"],
+      "highlights": [
+        "19+ özellik",
+        "33 Buddy animasyonu",
+        "DEHB dostu"
+      ],
       "features": [
-        ["Buddy, motivasyon arkadaşın", "Görevlerini tamamladıkça büyüyen sanal pet. 33 animasyon, beş durum göstergesi (mutluluk, enerji, sağlık, açlık, temizlik), seriler ve başarımlar. Seni adınla çağırır."],
-        ["Görevler ve alışkanlıklar", "Görevleri kategorize et, önceliklendir, alt görev ve tekrarlayan görev ekle. Günlük, haftalık veya aylık alışkanlıkları seri sistemiyle sürdür."],
-        ["Odak zamanlayıcı", "Özelleştirilebilir pomodoro sayacıyla çalış, odak sürelerini kaydet ve sonradan incele."],
-        ["Bedenine iyi bak", "Akıllı su hatırlatıcıları, doz ve saat yönetimli ilaç hatırlatıcı, uyku düzeni kaydı."],
-        ["Zor anlar için", "Nefes egzersizleri, ruh hâli günlüğü ve bunaldığında tek dokunuşla açılan Acil Durum Modu sakinleşme ekranı."],
-        ["DEHB için tasarlandı", "Dikkat eksikliği ve dürtüsellikle yaşayanların günlük rutinini kolaylaştırmak üzere kurgulandı. Her şey tek yerde, dağılmadan."]
+        [
+          "Buddy, motivasyon arkadaşın",
+          "Görevlerini tamamladıkça büyüyen sanal pet. 33 animasyon, beş durum göstergesi (mutluluk, enerji, sağlık, açlık, temizlik), seriler ve başarımlar. Seni adınla çağırır."
+        ],
+        [
+          "Görevler ve alışkanlıklar",
+          "Görevleri kategorize et, önceliklendir, alt görev ve tekrarlayan görev ekle. Günlük, haftalık veya aylık alışkanlıkları seri sistemiyle sürdür."
+        ],
+        [
+          "Odak zamanlayıcı",
+          "Özelleştirilebilir pomodoro sayacıyla çalış, odak sürelerini kaydet ve sonradan incele."
+        ],
+        [
+          "Bedenine iyi bak",
+          "Akıllı su hatırlatıcıları, doz ve saat yönetimli ilaç hatırlatıcı, uyku düzeni kaydı."
+        ],
+        [
+          "Zor anlar için",
+          "Nefes egzersizleri, ruh hâli günlüğü ve bunaldığında tek dokunuşla açılan Acil Durum Modu sakinleşme ekranı."
+        ],
+        [
+          "DEHB için tasarlandı",
+          "Dikkat eksikliği ve dürtüsellikle yaşayanların günlük rutinini kolaylaştırmak üzere kurgulandı. Her şey tek yerde, dağılmadan."
+        ]
       ],
       "privacy": "https://doc-hosting.flycricket.io/dehb-destek-privacy-policy/411e8954-da4e-4af3-8d9a-47c4512873d4/privacy",
       "shots": 5,
-      "shotRatio": "640 / 1280"
+      "shotRatio": "640 / 1280",
+      "framed": false,
+      "signature": [
+        "19+",
+        "özellik tek uygulamada; görevler, alışkanlıklar, su, ilaç, uyku, odak"
+      ]
     },
     {
       "slug": "fasttrack",
@@ -53,20 +80,50 @@
       "version": "1.2.9",
       "updated": "29 Ekim 2026",
       "rated": "PEGI 3",
-      "highlights": ["8 oruç planı", "Android widget", "Gemini yemek analizi"],
+      "highlights": [
+        "8 oruç planı",
+        "Android widget",
+        "Gemini yemek analizi"
+      ],
       "features": [
-        ["Sekiz oruç planı", "12:12, 16:8, 18:6, 20:4, OMAD, 5:2, Eat-Stop-Eat ve Warrior. İlerlemeni, hedefini ve tahmini bitiş saatini canlı takip et."],
-        ["Metabolik yolculuk", "Anabolik, katabolik, yağ yakımı, ketoz ve otofaji aşamalarını genel hatlarıyla gör. Zorlandığında son saat desteğiyle ara ver, su iç, nefes al."],
-        ["Günlük kayıtlar", "Su tüketimi, öğünler, kalori, protein, karbonhidrat ve yağ. Kilo, hedef kilo ve VKİ geçmişi."],
-        ["Raporlar", "Haftalık, aylık ve yıllık görünüm: toplam oruç, ortalama süre, tamamlama oranı, seriler, ısı haritaları ve kilo eğilimi."],
-        ["Hatırlatıcılar ve widget", "Aşamalar, sıvı alımı ve yeme aralıkları için isteğe bağlı bildirimler. Ana ekran widget'ında kalan süre ve mevcut aşama."],
-        ["Baskısız motivasyon", "XP, görevler, rozetler ve kişisel rekorlar. Sakin Oyunlaştırma ile lig baskısını kapat, Oruç Tekrarı ile seansını paylaş."],
-        ["FastTrack Premium", "Altı gelişmiş plan, Google Gemini destekli yemek fotoğrafı analizi ve reklamsız deneyim. Fotoğraflar FastTrack sunucularında saklanmaz."]
+        [
+          "Sekiz oruç planı",
+          "12:12, 16:8, 18:6, 20:4, OMAD, 5:2, Eat-Stop-Eat ve Warrior. İlerlemeni, hedefini ve tahmini bitiş saatini canlı takip et."
+        ],
+        [
+          "Metabolik yolculuk",
+          "Anabolik, katabolik, yağ yakımı, ketoz ve otofaji aşamalarını genel hatlarıyla gör. Zorlandığında son saat desteğiyle ara ver, su iç, nefes al."
+        ],
+        [
+          "Günlük kayıtlar",
+          "Su tüketimi, öğünler, kalori, protein, karbonhidrat ve yağ. Kilo, hedef kilo ve VKİ geçmişi."
+        ],
+        [
+          "Raporlar",
+          "Haftalık, aylık ve yıllık görünüm: toplam oruç, ortalama süre, tamamlama oranı, seriler, ısı haritaları ve kilo eğilimi."
+        ],
+        [
+          "Hatırlatıcılar ve widget",
+          "Aşamalar, sıvı alımı ve yeme aralıkları için isteğe bağlı bildirimler. Ana ekran widget'ında kalan süre ve mevcut aşama."
+        ],
+        [
+          "Baskısız motivasyon",
+          "XP, görevler, rozetler ve kişisel rekorlar. Sakin Oyunlaştırma ile lig baskısını kapat, Oruç Tekrarı ile seansını paylaş."
+        ],
+        [
+          "FastTrack Premium",
+          "Altı gelişmiş plan, Google Gemini destekli yemek fotoğrafı analizi ve reklamsız deneyim. Fotoğraflar FastTrack sunucularında saklanmaz."
+        ]
       ],
       "note": "FastTrack genel sağlıklı yaşam bilgisi sunar; teşhis veya tedavi amacı taşımaz. Sağlık sorunun varsa oruca başlamadan önce bir uzmana danış.",
       "privacy": "https://fasting-app-mauve.vercel.app/privacy/",
       "shots": 8,
-      "shotRatio": "720 / 1280"
+      "shotRatio": "720 / 1280",
+      "framed": false,
+      "signature": [
+        "16:8",
+        "ve yedi oruç planı daha, canlı aşama takibiyle"
+      ]
     },
     {
       "slug": "neurosound",
@@ -85,18 +142,42 @@
       "version": "1.0.0",
       "updated": "1 Kasım 2026",
       "rated": "PEGI 3",
-      "highlights": ["Tamamen çevrimdışı", "4 kanallı mikser", "21 dil"],
+      "highlights": [
+        "Tamamen çevrimdışı",
+        "4 kanallı mikser",
+        "21 dil"
+      ],
       "features": [
-        ["Frekanslar ve tonlar", "852 Hz ve diğer tek frekanslı tonlar. Uyku, odak ve meditasyon için binaural ritimler (kulaklıkla)."],
-        ["Ortam sesleri", "Yağmur, orman, okyanus ve daha fazlası. Her biri tek başına ya da karışımın bir katmanı olarak."],
-        ["Dört kanallı mikser", "Dört sese kadar katman oluştur, seviyelerini ayarla, favori karışımlarını kaydet."],
-        ["Uyku zamanlayıcısı", "Süre dolunca ses kendiliğinden yavaşça kısılır. Kilit ekranından kontrol edebilirsin."],
-        ["Gerçekten çevrimdışı", "Uçakta, uçak modunda, her yerde çalışır. Reklam yok, hesap yok, kayıt yok, analiz SDK'sı yok."]
+        [
+          "Frekanslar ve tonlar",
+          "852 Hz ve diğer tek frekanslı tonlar. Uyku, odak ve meditasyon için binaural ritimler (kulaklıkla)."
+        ],
+        [
+          "Ortam sesleri",
+          "Yağmur, orman, okyanus ve daha fazlası. Her biri tek başına ya da karışımın bir katmanı olarak."
+        ],
+        [
+          "Dört kanallı mikser",
+          "Dört sese kadar katman oluştur, seviyelerini ayarla, favori karışımlarını kaydet."
+        ],
+        [
+          "Uyku zamanlayıcısı",
+          "Süre dolunca ses kendiliğinden yavaşça kısılır. Kilit ekranından kontrol edebilirsin."
+        ],
+        [
+          "Gerçekten çevrimdışı",
+          "Uçakta, uçak modunda, her yerde çalışır. Reklam yok, hesap yok, kayıt yok, analiz SDK'sı yok."
+        ]
       ],
       "note": "852Hz bir rahatlama aracıdır; hiçbir tıbbi durumu teşhis etmez veya tedavi etmez.",
       "privacy": "https://dehbkoclugu-afk.github.io/neurosound/privacy.html",
       "shots": 4,
-      "shotRatio": "576 / 1280"
+      "shotRatio": "576 / 1280",
+      "framed": true,
+      "signature": [
+        "4",
+        "katmana kadar ses karışımı, tamamen çevrimdışı"
+      ]
     },
     {
       "slug": "selaora",
@@ -115,17 +196,41 @@
       "version": "1.0.2",
       "updated": "29 Eylül 2026",
       "rated": "PEGI 3",
-      "highlights": ["38 dil", "Çevrimdışı İncil", "Reklamsız"],
+      "highlights": [
+        "38 dil",
+        "Çevrimdışı İncil",
+        "Reklamsız"
+      ],
       "features": [
-        ["Günlük rutin", "Günün ayeti, kısa ruhsal okumalar ve adım adım rehberli dualar. Günlük serinle alışkanlığını koru."],
-        ["Kutsal Kitap yanında", "İncil'i çevrimdışı oku; kitap, bölüm ve ayetlerde ara. Ayetleri vurgula, kaydet, paylaş. Desteklenen çevirilerde sesli bölümler."],
-        ["Okuma planları", "Planları ilerleme takibiyle tamamla."],
-        ["38 dil", "Uygulama dilini ve Kutsal Kitap çevirisini birbirinden bağımsız seç. İçerik paketlerini indirip çevrimdışı kullan."],
-        ["Sakin ve kişisel", "Reklam yok, hesap zorunluluğu yok. Dua günlüğün ve tercihlerin cihazında kalır. Hatırlatma saati ve tema senin elinde."]
+        [
+          "Günlük rutin",
+          "Günün ayeti, kısa ruhsal okumalar ve adım adım rehberli dualar. Günlük serinle alışkanlığını koru."
+        ],
+        [
+          "Kutsal Kitap yanında",
+          "İncil'i çevrimdışı oku; kitap, bölüm ve ayetlerde ara. Ayetleri vurgula, kaydet, paylaş. Desteklenen çevirilerde sesli bölümler."
+        ],
+        [
+          "Okuma planları",
+          "Planları ilerleme takibiyle tamamla."
+        ],
+        [
+          "38 dil",
+          "Uygulama dilini ve Kutsal Kitap çevirisini birbirinden bağımsız seç. İçerik paketlerini indirip çevrimdışı kullan."
+        ],
+        [
+          "Sakin ve kişisel",
+          "Reklam yok, hesap zorunluluğu yok. Dua günlüğün ve tercihlerin cihazında kalır. Hatırlatma saati ve tema senin elinde."
+        ]
       ],
       "privacy": "https://dehbkoclugu-afk.github.io/Dailyprayer/privacy/",
       "shots": 4,
-      "shotRatio": "390 / 844"
+      "shotRatio": "390 / 844",
+      "framed": true,
+      "signature": [
+        "38",
+        "dilde arayüz; İncil çevirisini ayrıca seç"
+      ]
     },
     {
       "slug": "regl-takip",
@@ -133,8 +238,8 @@
       "storeName": "Döngü Takip : Regl Takvimi",
       "package": "com.regl.regl_takip",
       "category": "Sağlık ve Fitness",
-      "tint": "#3b2724",
-      "glow": "#f0a04b",
+      "tint": "#3a1d2c",
+      "glow": "#ff9a5a",
       "tagline": "Adet döngünü kolayca takip et, bedenini daha iyi tanı.",
       "headline": "Döngünü tanı, kendine sahip çık.",
       "description": "Döngü fazın, sonraki adet, ovülasyon ve verimli pencere tahminleri tek ekranda. Belirtilerini ve ruh hâlini kaydet; verilerin PIN ve biyometrik kilitle cihazında kalsın.",
@@ -144,24 +249,68 @@
       "version": "1.1.2",
       "updated": "29 Ekim 2026",
       "rated": "PEGI 3",
-      "highlights": ["Biyometrik kilit", "Veriler cihazda", "TR ve EN"],
+      "highlights": [
+        "Biyometrik kilit",
+        "Veriler cihazda",
+        "TR ve EN"
+      ],
       "features": [
-        ["Döngü özeti", "Bulunduğun faz, döngünün kaçıncı günü ve bir sonraki adete kalan süre tek bakışta."],
-        ["Tahmin takvimi", "Sonraki adet, ovülasyon ve verimli pencere tahminleri; geçmiş kayıtlarınla birlikte takvimde."],
-        ["Belirti ve ruh hâli", "Günlük değişimlerini not al, istatistiklerle zaman içindeki örüntüleri gör."],
-        ["Gizlilik önce", "PIN ve biyometrik kilit. Tüm veriler cihazında kalır."],
-        ["Senin düzenin", "Karanlık mod, Türkçe ve İngilizce dil desteği."]
+        [
+          "Döngü özeti",
+          "Bulunduğun faz, döngünün kaçıncı günü ve bir sonraki adete kalan süre tek bakışta."
+        ],
+        [
+          "Tahmin takvimi",
+          "Sonraki adet, ovülasyon ve verimli pencere tahminleri; geçmiş kayıtlarınla birlikte takvimde."
+        ],
+        [
+          "Belirti ve ruh hâli",
+          "Günlük değişimlerini not al, istatistiklerle zaman içindeki örüntüleri gör."
+        ],
+        [
+          "Gizlilik önce",
+          "PIN ve biyometrik kilit. Tüm veriler cihazında kalır."
+        ],
+        [
+          "Senin düzenin",
+          "Karanlık mod, Türkçe ve İngilizce dil desteği."
+        ]
       ],
       "note": "Tahminler tıbbi tanı veya doğum kontrol yöntemi değildir.",
       "privacy": "https://doc-hosting.flycricket.io/regl-takip-privacy-policy/906e8e66-d53c-4a2d-9f87-9081551244b6/privacy",
       "shots": 5,
-      "shotRatio": "591 / 1280"
+      "shotRatio": "591 / 1280",
+      "framed": true,
+      "signature": [
+        "PIN",
+        "ve biyometrik kilit; veriler yalnızca cihazında"
+      ]
     }
   ],
   "upcoming": [
-    {"slug": "ihvan", "name": "İhvan", "category": "Dua ve maneviyat", "description": "Kur'an okuma, namaz vakitleri, kıble, dua ve zikir alışkanlıklarını bir araya getiren manevi yol arkadaşı."},
-    {"slug": "sakin", "name": "Sakin", "category": "Meditasyon", "description": "Türkçe yönlendirmeli meditasyonlarla gün içinde kendine ayırdığın zamana eşlik eder."},
-    {"slug": "fal", "name": "Fal", "category": "Eğlence", "description": "Kahve falı, tarot, rüya ve doğum haritası deneyimlerini bir araya getiren keşif uygulaması. Eğlence amaçlıdır."},
-    {"slug": "secret-chapters", "name": "Secret Chapters", "category": "İnteraktif hikâye", "description": "Karakterlerle kendi cümlelerinle konuştuğun, seçimlerinin sonraki sahneleri değiştirdiği romantik hikâyeler."}
+    {
+      "slug": "ihvan",
+      "name": "İhvan",
+      "category": "Dua ve maneviyat",
+      "description": "Kur'an okuma, namaz vakitleri, kıble, dua ve zikir alışkanlıklarını bir araya getiren manevi yol arkadaşı."
+    },
+    {
+      "slug": "sakin",
+      "name": "Sakin",
+      "category": "Meditasyon",
+      "description": "Türkçe yönlendirmeli meditasyonlarla gün içinde kendine ayırdığın zamana eşlik eder."
+    },
+    {
+      "slug": "fal",
+      "name": "Fal",
+      "category": "Eğlence",
+      "description": "Kahve falı, tarot, rüya ve doğum haritası deneyimlerini bir araya getiren keşif uygulaması. Eğlence amaçlıdır."
+    },
+    {
+      "slug": "secret-chapters",
+      "name": "Secret Chapters",
+      "category": "İnteraktif hikâye",
+      "description": "Karakterlerle kendi cümlelerinle konuştuğun, seçimlerinin sonraki sahneleri değiştirdiği romantik hikâyeler."
+    }
   ]
 }
