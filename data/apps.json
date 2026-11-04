@@ -1,213 +1,167 @@
-[
-  {
-    "slug": "fasttrack",
-    "name": "FastTrack",
-    "category": "Sağlık & yaşam",
-    "color": "#dfff89",
-    "ink": "#23351c",
-    "headline": "Kendi ritmini bul.",
-    "description": "Aralıklı oruç, su ve kilo takibini günlük hayatına uyarlayan kişisel takip uygulaması.",
-    "features": [
-      [
-        "Sana uyan oruç planı",
-        "Farklı oruç planları arasından düzenine uygun olanı seç, geçen ve kalan süreyi takip et."
-      ],
-      [
-        "Günlük kayıtlar",
-        "Su tüketimini ve kilo değişimini tek yerde kaydet."
-      ],
-      [
-        "İlerlemeni gör",
-        "Tamamlanan oruçlarını ve zaman içindeki düzenini raporlarla incele."
-      ]
-    ],
-    "repo": "fasting_app",
-    "storeUrl": null,
-    "image": null
+{
+  "studio": {
+    "name": "CEY Studio",
+    "email": "dehbkoclugu@gmail.com",
+    "playUrl": "https://play.google.com/store/apps/developer?id=CEY+Studio",
+    "github": "https://github.com/dehbkoclugu-afk"
   },
-  {
-    "slug": "neurosound",
-    "name": "NeuroSound",
-    "category": "Ses & odak",
-    "color": "#172d38",
-    "ink": "#f0ede5",
-    "headline": "Günün sesini değiştir.",
-    "description": "Uyku, odaklanma ve dinlenme anlarına eşlik eden sesler. Kendi ses ortamını oluştur, sana zaman kalsın.",
-    "features": [
-      [
-        "İhtiyacına göre dinle",
-        "Uyku, odak, rahatlama ve meditasyon için düzenlenmiş sesleri keşfet."
+  "live": [
+    {
+      "slug": "hayatini-planla",
+      "name": "Hayatını Planla",
+      "storeName": "Hayatını Planla - Günlük Rutin",
+      "package": "com.kedi.dehb_destek",
+      "category": "Verimlilik",
+      "tint": "#24194f",
+      "glow": "#8b6cff",
+      "tagline": "DEHB dostu günlük planlayıcı. Yanında sanal pet Buddy var.",
+      "headline": "Gününü planla, Buddy büyüsün.",
+      "description": "Yapılacaklar, alışkanlıklar, su ve ilaç hatırlatıcıları, odak zamanlayıcı ve ruh hâli günlüğü tek uygulamada. Dikkat güçlüğü yaşayanlar için sıfırdan tasarlandı; motivasyonu sanal pet Buddy taşıyor.",
+      "rating": "4,6",
+      "reviews": 82,
+      "downloads": "10 bin+",
+      "version": "16.1.0",
+      "updated": "27 Şubat 2026",
+      "rated": "PEGI 3",
+      "highlights": ["19+ özellik", "33 Buddy animasyonu", "DEHB dostu"],
+      "features": [
+        ["Buddy, motivasyon arkadaşın", "Görevlerini tamamladıkça büyüyen sanal pet. 33 animasyon, beş durum göstergesi (mutluluk, enerji, sağlık, açlık, temizlik), seriler ve başarımlar. Seni adınla çağırır."],
+        ["Görevler ve alışkanlıklar", "Görevleri kategorize et, önceliklendir, alt görev ve tekrarlayan görev ekle. Günlük, haftalık veya aylık alışkanlıkları seri sistemiyle sürdür."],
+        ["Odak zamanlayıcı", "Özelleştirilebilir pomodoro sayacıyla çalış, odak sürelerini kaydet ve sonradan incele."],
+        ["Bedenine iyi bak", "Akıllı su hatırlatıcıları, doz ve saat yönetimli ilaç hatırlatıcı, uyku düzeni kaydı."],
+        ["Zor anlar için", "Nefes egzersizleri, ruh hâli günlüğü ve bunaldığında tek dokunuşla açılan Acil Durum Modu sakinleşme ekranı."],
+        ["DEHB için tasarlandı", "Dikkat eksikliği ve dürtüsellikle yaşayanların günlük rutinini kolaylaştırmak üzere kurgulandı. Her şey tek yerde, dağılmadan."]
       ],
-      [
-        "Kendi karışımın",
-        "Dört sese kadar katman oluştur, ses seviyelerini ayarla ve karışımını kaydet."
+      "privacy": "https://doc-hosting.flycricket.io/dehb-destek-privacy-policy/411e8954-da4e-4af3-8d9a-47c4512873d4/privacy",
+      "shots": 5,
+      "shotRatio": "640 / 1280"
+    },
+    {
+      "slug": "fasttrack",
+      "name": "FastTrack",
+      "storeName": "FastTrack: Aralıklı Oruç",
+      "package": "com.dehbkoclugu.fasttrack",
+      "category": "Sağlık ve Fitness",
+      "tint": "#3a0a14",
+      "glow": "#ff3b55",
+      "tagline": "Aralıklı oruç zamanlayıcısı; su, kilo ve ilerleme takibi.",
+      "headline": "Ritmini bul. Kendine geri dön.",
+      "description": "Saniyeler içinde orucu başlat, geçen ve kalan süreyi gör. Su, öğün ve kilo kayıtlarını sade ve sakin tek bir uygulamada tut; ilerlemeni raporlarla izle.",
+      "rating": "5,0",
+      "reviews": 7,
+      "downloads": "1 bin+",
+      "version": "1.2.9",
+      "updated": "29 Ekim 2026",
+      "rated": "PEGI 3",
+      "highlights": ["8 oruç planı", "Android widget", "Gemini yemek analizi"],
+      "features": [
+        ["Sekiz oruç planı", "12:12, 16:8, 18:6, 20:4, OMAD, 5:2, Eat-Stop-Eat ve Warrior. İlerlemeni, hedefini ve tahmini bitiş saatini canlı takip et."],
+        ["Metabolik yolculuk", "Anabolik, katabolik, yağ yakımı, ketoz ve otofaji aşamalarını genel hatlarıyla gör. Zorlandığında son saat desteğiyle ara ver, su iç, nefes al."],
+        ["Günlük kayıtlar", "Su tüketimi, öğünler, kalori, protein, karbonhidrat ve yağ. Kilo, hedef kilo ve VKİ geçmişi."],
+        ["Raporlar", "Haftalık, aylık ve yıllık görünüm: toplam oruç, ortalama süre, tamamlama oranı, seriler, ısı haritaları ve kilo eğilimi."],
+        ["Hatırlatıcılar ve widget", "Aşamalar, sıvı alımı ve yeme aralıkları için isteğe bağlı bildirimler. Ana ekran widget'ında kalan süre ve mevcut aşama."],
+        ["Baskısız motivasyon", "XP, görevler, rozetler ve kişisel rekorlar. Sakin Oyunlaştırma ile lig baskısını kapat, Oruç Tekrarı ile seansını paylaş."],
+        ["FastTrack Premium", "Altı gelişmiş plan, Google Gemini destekli yemek fotoğrafı analizi ve reklamsız deneyim. Fotoğraflar FastTrack sunucularında saklanmaz."]
       ],
-      [
-        "Sakin bir kapanış",
-        "Uyku zamanlayıcısı sesleri yavaşça azaltır. Favorilerin cihazında saklanır."
-      ]
-    ],
-    "repo": "neurosound",
-    "storeUrl": null,
-    "image": "neurosound.jpg",
-    "icon": "neurosound-icon.png"
-  },
-  {
-    "slug": "selaora",
-    "name": "Selaora",
-    "category": "Dua & maneviyat",
-    "color": "#f3cf6d",
-    "ink": "#372a11",
-    "headline": "Kendine bir an ayır.",
-    "description": "Günlük dua, Kutsal Kitap okumaları ve şükran günlüğüyle kişisel bir manevi rutin oluştur.",
-    "features": [
-      [
-        "Günlük okumalar",
-        "Günün ayeti ve okuma planlarıyla kendi hızında ilerle."
+      "note": "FastTrack genel sağlıklı yaşam bilgisi sunar; teşhis veya tedavi amacı taşımaz. Sağlık sorunun varsa oruca başlamadan önce bir uzmana danış.",
+      "privacy": "https://fasting-app-mauve.vercel.app/privacy/",
+      "shots": 8,
+      "shotRatio": "720 / 1280"
+    },
+    {
+      "slug": "neurosound",
+      "name": "852Hz",
+      "storeName": "852Hz",
+      "package": "com.dehbkoclugu.neurosound",
+      "category": "Müzik ve Ses",
+      "tint": "#0d1822",
+      "glow": "#7fb4e0",
+      "tagline": "Uyku, odak ve rahatlama için tamamen çevrimdışı sesler.",
+      "headline": "Dünyanın sesini kıs.",
+      "description": "Bir sese dokun ve dinle ya da dört katmana kadar kendi karışımını yap: 852 Hz üstüne yağmur, binaural ritimle okyanus. Süre dolunca ses yavaşça kısılır. Reklam yok, hesap yok.",
+      "rating": null,
+      "reviews": 0,
+      "downloads": "5+",
+      "version": "1.0.0",
+      "updated": "1 Kasım 2026",
+      "rated": "PEGI 3",
+      "highlights": ["Tamamen çevrimdışı", "4 kanallı mikser", "21 dil"],
+      "features": [
+        ["Frekanslar ve tonlar", "852 Hz ve diğer tek frekanslı tonlar. Uyku, odak ve meditasyon için binaural ritimler (kulaklıkla)."],
+        ["Ortam sesleri", "Yağmur, orman, okyanus ve daha fazlası. Her biri tek başına ya da karışımın bir katmanı olarak."],
+        ["Dört kanallı mikser", "Dört sese kadar katman oluştur, seviyelerini ayarla, favori karışımlarını kaydet."],
+        ["Uyku zamanlayıcısı", "Süre dolunca ses kendiliğinden yavaşça kısılır. Kilit ekranından kontrol edebilirsin."],
+        ["Gerçekten çevrimdışı", "Uçakta, uçak modunda, her yerde çalışır. Reklam yok, hesap yok, kayıt yok, analiz SDK'sı yok."]
       ],
-      [
-        "Dua zamanı",
-        "Farklı konulardaki rehberli duaları keşfet."
+      "note": "852Hz bir rahatlama aracıdır; hiçbir tıbbi durumu teşhis etmez veya tedavi etmez.",
+      "privacy": "https://dehbkoclugu-afk.github.io/neurosound/privacy.html",
+      "shots": 4,
+      "shotRatio": "576 / 1280"
+    },
+    {
+      "slug": "selaora",
+      "name": "Selaora",
+      "storeName": "Selaora: Günlük Dua ve İncil",
+      "package": "com.lumen.dailyprayer",
+      "category": "Kitaplar ve Referans",
+      "tint": "#141829",
+      "glow": "#e8b84a",
+      "tagline": "Günlük İncil ayetleri, rehberli dualar, okuma planları ve iman günlüğü.",
+      "headline": "Her gün birkaç dakika, sana ait.",
+      "description": "Kutsal Kitap'la sakin ve düzenli zaman geçirmen için tasarlanmış reklamsız bir dua uygulaması. Oku, dua et, düşün; şükran notlarını günlüğünde sakla.",
+      "rating": null,
+      "reviews": 0,
+      "downloads": "10+",
+      "version": "1.0.2",
+      "updated": "29 Eylül 2026",
+      "rated": "PEGI 3",
+      "highlights": ["38 dil", "Çevrimdışı İncil", "Reklamsız"],
+      "features": [
+        ["Günlük rutin", "Günün ayeti, kısa ruhsal okumalar ve adım adım rehberli dualar. Günlük serinle alışkanlığını koru."],
+        ["Kutsal Kitap yanında", "İncil'i çevrimdışı oku; kitap, bölüm ve ayetlerde ara. Ayetleri vurgula, kaydet, paylaş. Desteklenen çevirilerde sesli bölümler."],
+        ["Okuma planları", "Planları ilerleme takibiyle tamamla."],
+        ["38 dil", "Uygulama dilini ve Kutsal Kitap çevirisini birbirinden bağımsız seç. İçerik paketlerini indirip çevrimdışı kullan."],
+        ["Sakin ve kişisel", "Reklam yok, hesap zorunluluğu yok. Dua günlüğün ve tercihlerin cihazında kalır. Hatırlatma saati ve tema senin elinde."]
       ],
-      [
-        "Kişisel günlük",
-        "Şükran notlarını ve dua niyetlerini bir arada tut."
-      ]
-    ],
-    "repo": "Dailyprayer",
-    "storeUrl": null,
-    "image": "selaora.webp"
-  },
-  {
-    "slug": "ihvan",
-    "name": "İhvan",
-    "category": "Dua & maneviyat",
-    "color": "#d0e8dc",
-    "ink": "#193c2d",
-    "headline": "Günlük hayatına bir durak.",
-    "description": "Kur’an okuma, namaz takibi, dua ve zikir alışkanlıklarını bir araya getiren manevi yol arkadaşı.",
-    "features": [
-      [
-        "Okumaya devam et",
-        "Sure ve cüzler arasında gezin, ayetlerini işaretle ve kaldığın yeri koru."
+      "privacy": "https://dehbkoclugu-afk.github.io/Dailyprayer/privacy/",
+      "shots": 4,
+      "shotRatio": "390 / 844"
+    },
+    {
+      "slug": "regl-takip",
+      "name": "Döngü Takip",
+      "storeName": "Döngü Takip : Regl Takvimi",
+      "package": "com.regl.regl_takip",
+      "category": "Sağlık ve Fitness",
+      "tint": "#3b2724",
+      "glow": "#f0a04b",
+      "tagline": "Adet döngünü kolayca takip et, bedenini daha iyi tanı.",
+      "headline": "Döngünü tanı, kendine sahip çık.",
+      "description": "Döngü fazın, sonraki adet, ovülasyon ve verimli pencere tahminleri tek ekranda. Belirtilerini ve ruh hâlini kaydet; verilerin PIN ve biyometrik kilitle cihazında kalsın.",
+      "rating": null,
+      "reviews": 0,
+      "downloads": "100+",
+      "version": "1.1.2",
+      "updated": "29 Ekim 2026",
+      "rated": "PEGI 3",
+      "highlights": ["Biyometrik kilit", "Veriler cihazda", "TR ve EN"],
+      "features": [
+        ["Döngü özeti", "Bulunduğun faz, döngünün kaçıncı günü ve bir sonraki adete kalan süre tek bakışta."],
+        ["Tahmin takvimi", "Sonraki adet, ovülasyon ve verimli pencere tahminleri; geçmiş kayıtlarınla birlikte takvimde."],
+        ["Belirti ve ruh hâli", "Günlük değişimlerini not al, istatistiklerle zaman içindeki örüntüleri gör."],
+        ["Gizlilik önce", "PIN ve biyometrik kilit. Tüm veriler cihazında kalır."],
+        ["Senin düzenin", "Karanlık mod, Türkçe ve İngilizce dil desteği."]
       ],
-      [
-        "Vakitleri takip et",
-        "Namaz vakitlerini ve kıble yönünü görüntüle; istediğin hatırlatmaları aç."
-      ],
-      [
-        "Kendi düzenin",
-        "Dua, zikir ve kişisel notlarınla günlük rutinini oluştur."
-      ]
-    ],
-    "repo": "ihvan",
-    "storeUrl": null,
-    "image": null
-  },
-  {
-    "slug": "sakin",
-    "name": "Sakin",
-    "category": "Meditasyon",
-    "color": "#e0e8ff",
-    "ink": "#263952",
-    "headline": "Bir nefeslik boşluk.",
-    "description": "Türkçe yönlendirmeli meditasyonlarla gün içinde kendine ayırdığın zamana eşlik eder.",
-    "features": [
-      [
-        "Türkçe rehberlik",
-        "Yönlendirmeli meditasyon içerikleriyle pratiğine başla."
-      ],
-      [
-        "Dinleme deneyimi",
-        "Ses odaklı seanslarla dikkatini kendine çevir."
-      ],
-      [
-        "Kendi hızında",
-        "Meditasyonu günlük hayatında sana uygun bir yere yerleştir."
-      ]
-    ],
-    "repo": "Meditasyon",
-    "storeUrl": null,
-    "image": null
-  },
-  {
-    "slug": "regl-takip",
-    "name": "Regl Takip",
-    "category": "Sağlık & yaşam",
-    "color": "#f4d7e0",
-    "ink": "#602840",
-    "headline": "Döngünü daha iyi tanı.",
-    "description": "Adet takvimi, belirti kayıtları ve kişisel döngü geçmişi. Kendi bedenini kendi kayıtlarınla takip et.",
-    "features": [
-      [
-        "Döngü takvimi",
-        "Geçmiş kayıtlarını ve kayıtlarına dayalı tahminleri birlikte gör."
-      ],
-      [
-        "Belirti ve ruh hâli",
-        "Günlük değişimlerini not al, zaman içindeki örüntüleri incele."
-      ],
-      [
-        "Kişisel kayıtlar",
-        "Verilerini cihazında tut; gerektiğinde özetini dışa aktar."
-      ]
-    ],
-    "note": "Tahminler tıbbi tanı veya doğum kontrol yöntemi değildir.",
-    "repo": "regl-takip",
-    "storeUrl": null,
-    "image": null
-  },
-  {
-    "slug": "fal",
-    "name": "Fal",
-    "category": "Eğlence & keşif",
-    "color": "#dad1f5",
-    "ink": "#382c51",
-    "headline": "Merakına yer aç.",
-    "description": "Kahve falı, tarot, rüya ve doğum haritası deneyimlerini bir araya getiren keşif uygulaması.",
-    "features": [
-      [
-        "Farklı ritüeller",
-        "Kahve, tarot ve rüya yorumları arasında keşfe çık."
-      ],
-      [
-        "Doğum haritası",
-        "Doğum bilgilerine göre hazırlanan astroloji yorumlarını incele."
-      ],
-      [
-        "Kişisel arşiv",
-        "Önceki yorumlarını ve notlarını yeniden ziyaret et."
-      ]
-    ],
-    "note": "Eğlence amaçlıdır; profesyonel danışmanlık yerine geçmez.",
-    "repo": "fal",
-    "storeUrl": null,
-    "image": null
-  },
-  {
-    "slug": "secret-chapters",
-    "name": "Secret Chapters",
-    "category": "İnteraktif hikâye",
-    "color": "#f4a785",
-    "ink": "#50291f",
-    "headline": "Bu hikâyede söz senin.",
-    "description": "Karakterlerle konuştuğun, seçimlerinle yön verdiğin interaktif romantik hikâye projesi.",
-    "features": [
-      [
-        "Hikâyenin içinde",
-        "Romantik dizilerde başrolü üstlen, karakterlerle kendi cümlelerinle konuş."
-      ],
-      [
-        "Hatırlanan seçimler",
-        "Önceki seçimlerin ve konuşmaların sonraki sahneleri etkiler."
-      ],
-      [
-        "Bölüm bölüm keşif",
-        "Karakterlerin dünyasını ve hikâyenin farklı yollarını tanı."
-      ]
-    ],
-    "repo": "hikaye",
-    "storeUrl": null,
-    "image": null
-  }
-]
+      "note": "Tahminler tıbbi tanı veya doğum kontrol yöntemi değildir.",
+      "privacy": "https://doc-hosting.flycricket.io/regl-takip-privacy-policy/906e8e66-d53c-4a2d-9f87-9081551244b6/privacy",
+      "shots": 5,
+      "shotRatio": "591 / 1280"
+    }
+  ],
+  "upcoming": [
+    {"slug": "ihvan", "name": "İhvan", "category": "Dua ve maneviyat", "description": "Kur'an okuma, namaz vakitleri, kıble, dua ve zikir alışkanlıklarını bir araya getiren manevi yol arkadaşı."},
+    {"slug": "sakin", "name": "Sakin", "category": "Meditasyon", "description": "Türkçe yönlendirmeli meditasyonlarla gün içinde kendine ayırdığın zamana eşlik eder."},
+    {"slug": "fal", "name": "Fal", "category": "Eğlence", "description": "Kahve falı, tarot, rüya ve doğum haritası deneyimlerini bir araya getiren keşif uygulaması. Eğlence amaçlıdır."},
+    {"slug": "secret-chapters", "name": "Secret Chapters", "category": "İnteraktif hikâye", "description": "Karakterlerle kendi cümlelerinle konuştuğun, seçimlerinin sonraki sahneleri değiştirdiği romantik hikâyeler."}
+  ]
+}

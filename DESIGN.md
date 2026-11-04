@@ -1,9 +1,9 @@
-# Cey Studios design — September 2026
+# CEY Studio design, November 2026
 
-Visual thesis: a confident editorial app studio, with large sans/serif headlines, cobalt accents, a cinematic asymmetric app showcase and a compact, legible portfolio.
+Read: independent mobile app studio portfolio for Play users and potential partners. Soft structuralism, editorial split hero, real store screenshots as the only imagery.
 
-Paper #f7f7f2; ink #20231f; accent #324cdc. Self-hosted Manrope and system Georgia display italic. Harder 5px panel corners replace generic rounded cards. Forest imagery, acid green FastTrack and twilight Selaora remain app-specific; no fabricated screenshots or download claims.
+Tokens: cool off-white #f3f4f6 / near-black #0b0c0f (auto dark mode), single cobalt accent #3554e6 (#6f88ff dark). Each app carries its own tint and glow from its icon and store art; they appear only inside that app's cards. Manrope self-hosted. Pill buttons with nested icon circle, 28px card radius, phone frames as double bezels.
 
-Magic UI MCP 2.0.0 supplied Bento Grid, Blur Fade and Magic Card sources. Their layout and interaction patterns are adapted to the existing dependency-free static architecture (see docs/MAGIC-UI.md). Three featured projects lead into the eight-app catalogue. Detail pages share navigation, typography, numbered feature rows and context-aware next apps.
+Motion: word-by-word headline rise, spring phone entrance with idle float and pointer parallax, count-up stats, sticky stacking app cards (scroll-driven sink where supported), one screenshot marquee, blur-fade reveals. All transform/opacity; everything off under reduced motion; content visible without JS.
 
-No new runtime framework. Progressive enhancement: content and navigation work without JS. Entrance animation runs once; pointer spotlight is fine-pointer only. Reduced-motion users receive no animation. App data and store links remain in data/apps.json.
+Layout families: split hero, stat strip, sticky stack, marquee, 6-col bento, manifesto, dashed upcoming grid, contact panel. Below 900px everything collapses to one column; nav becomes a details-based menu.

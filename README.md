@@ -1,27 +1,31 @@
-# Cey Studios
+# CEY Studio
 
-Cey Studios için Türkçe, mobil uyumlu uygulama portföyü. Ana sayfa, sekiz bağımsız uygulama tanıtım sayfası ve 404 sayfası. JavaScript kapalıyken de bütün içerik ve gezinme çalışır.
+ceystudio.com.tr için Türkçe, mobil uyumlu stüdyo portfolyosu. Google Play'de yayındaki beş uygulama (Hayatını Planla, FastTrack, 852Hz, Selaora, Döngü Takip), geliştirmedeki dört proje ve her uygulama için ayrı detay sayfası. JavaScript kapalıyken de bütün içerik ve gezinme çalışır; animasyonlar `prefers-reduced-motion` ile kapanır. Açık ve koyu tema sistem ayarını izler.
 
 ## Çalıştırma
 
-Node.js 20+ yeterlidir; paket kurulumu veya API anahtarı gerekmez.
+Node.js 20+ yeterli; paket kurulumu gerekmez.
 
 ```sh
 npm run build
 npm run check
-python3 -m http.server 8080 --directory dist
+python -m http.server 8080 --directory dist
 ```
 
-## Uygulama ekleme veya düzenleme
+## İçerik
 
-`data/apps.json` tek içerik kaynağıdır. Mevcut bir kaydı kopyala; `slug`, ad, kategori, açıklama ve özellikleri düzenle. `image` alanına `dist/assets` içindeki dosya adını yaz. Görsel yoksa uygulama adı kendi renk alanında gösterilir. `storeUrl` alanına doğrulanmış Google Play veya App Store bağlantısını ekle; boşken indirme düğmesi gösterilmez. Sonra `npm run build` ve `npm run check` çalıştır.
+`data/apps.json` tek içerik kaynağı:
 
-`repo` alanı yalnızca içerik kaynağını belirtir, ziyaretçiye gösterilmez. Uygulama eklemek kod dosyalarını değiştirmeyi gerektirmez. Bir yönetim paneli bulunmaz.
+- `live`: Google Play'deki uygulamalar. Puan, yorum, indirme, sürüm ve güncelleme tarihi Play sayfasından elle alınır; değiştiğinde burada güncelle.
+- `upcoming`: henüz mağazada olmayan projeler.
+- Ekran görüntüleri ve ikonlar `dist/assets/play/<slug>/` altında (`icon.webp`, `shot-N.webp`). `shots` alanı dosya sayısıyla eşleşmeli.
+
+Sonra `npm run build` ve `npm run check`. Check; kırık bağlantıları, eksik ekran görüntülerini ve görünür metinde uzun tire kullanımını yakalar.
 
 ## Yayınlama
 
-`dist/` statik yayın klasörüdür. Vercel için `vercel.json` dahildir. Netlify için `netlify.toml` dahildir. Sites kimliği `.openai/hosting.json` içindedir. Mağaza bağlantıları kullanıcı tarafından doğrulanıp içerik dosyasına girilmelidir; paket adlarından tahmin edilmemiştir.
+`dist/` statik yayın klasörü. Vercel (`vercel.json`) ve Netlify (`netlify.toml`) ayarları dahil.
 
 ## Kaynaklar
 
-Tasarım kaynakları, alınan kararlar ve görsel/font kökenleri `docs/SOURCES.md` içindedir. Yeni uygulamalar yayınlanırken gerçek mağaza adı ve durumunu doğrulayın. Selaora, kullanıcının yeni marka adıdır; kaynak deposunda eski Lumen adı hâlâ bulunur.
+`docs/SOURCES.md`.
