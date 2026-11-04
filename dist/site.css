@@ -324,9 +324,5 @@ ul{list-style:none;margin:0;padding:0}
 .d-side{display:flex;flex-direction:column}
 .d-side .sig{margin-top:0;padding-top:0;border:0;justify-content:flex-end}
 .d-side .d-phones{flex:1}
-.f-card:has(.f-shot){display:grid;grid-template-columns:1fr 150px;gap:24px;align-items:center;padding-bottom:0}
-.f-card:has(.f-shot)>div{order:-1;padding-bottom:30px}
-.f-shot{align-self:end;border-radius:18px 18px 0 0;box-shadow:0 -6px 30px -10px rgb(0 0 0/.3)}
-@media (max-width:560px){.f-card:has(.f-shot){grid-template-columns:1fr 96px}}
 @media (max-width:900px){.hero-stage .poster{width:172px;border-radius:16px}}
 .tile-shot{height:280px;object-fit:cover;object-position:top}
