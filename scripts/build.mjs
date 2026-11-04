@@ -1,6 +1,6 @@
 import {readFileSync,writeFileSync,mkdirSync,rmSync} from 'node:fs';
 const {studio,live,upcoming}=JSON.parse(readFileSync('data/apps.json','utf8'));
-const SITE='https://ceystudio.com.tr';
+const SITE='https://ceystudios.com.tr';
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const play=a=>`https://play.google.com/store/apps/details?id=${a.package}`;
 const icon={

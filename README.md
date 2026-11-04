@@ -1,6 +1,6 @@
 # CEY Studio
 
-ceystudio.com.tr için Türkçe, mobil uyumlu stüdyo portfolyosu. Google Play'de yayındaki beş uygulama (Hayatını Planla, FastTrack, 852Hz, Selaora, Döngü Takip), geliştirmedeki dört proje ve her uygulama için ayrı detay sayfası. JavaScript kapalıyken de bütün içerik ve gezinme çalışır; animasyonlar `prefers-reduced-motion` ile kapanır. Açık ve koyu tema sistem ayarını izler.
+ceystudios.com.tr için Türkçe, mobil uyumlu stüdyo portfolyosu. Google Play'de yayındaki beş uygulama (Hayatını Planla, FastTrack, 852Hz, Selaora, Döngü Takip), geliştirmedeki dört proje ve her uygulama için ayrı detay sayfası. JavaScript kapalıyken de bütün içerik ve gezinme çalışır; animasyonlar `prefers-reduced-motion` ile kapanır. Açık ve koyu tema sistem ayarını izler.
 
 ## Çalıştırma
 
