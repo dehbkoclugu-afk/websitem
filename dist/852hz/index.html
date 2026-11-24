@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>852Hz · Uyku ve Odak Sesleri | İndir</title>
+<meta name="description" content="852Hz: uyku, odak ve rahatlama için frekanslar, binaural ritimler ve doğa sesleri. iPhone ve Android için ücretsiz indir.">
+<link rel="canonical" href="https://ceystudios.com.tr/852hz/">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://ceystudios.com.tr/852hz/">
+<meta property="og:title" content="852Hz · Sleep & Focus Sounds">
+<meta property="og:description" content="Frequencies, binaural beats and nature sounds. Free on iPhone and Android.">
+<meta property="og:image" content="https://ceystudios.com.tr/852hz/og.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0A090D">
+<link rel="icon" href="icon.png">
+<script>
+  // Phones go straight to their own store; everyone else sees the page.
+  // Campaign tags (utm_*) are handed to Google Play as the install referrer.
+  (function () {
+    var q = new URLSearchParams(location.search);
+    if (q.has('stay')) return;
+    var ua = navigator.userAgent || '';
+    var ios = /iPhone|iPad|iPod/i.test(ua) || (/Macintosh/i.test(ua) && navigator.maxTouchPoints > 1);
+    var android = /Android/i.test(ua);
+    var IOS = 'https://apps.apple.com/app/id6830692340';
+    var PLAY = 'https://play.google.com/store/apps/details?id=com.dehbkoclugu.neurosound';
+    var ref = [];
+    q.forEach(function (v, k) { if (/^utm_/.test(k)) ref.push(k + '=' + v); });
+    if (ref.length) PLAY += '&referrer=' + encodeURIComponent(ref.join('&'));
+    window.STORE = { ios: IOS, play: PLAY };
+    if (ios) location.replace(IOS);
+    else if (android) location.replace(PLAY);
+  })();
+</script>
+<style>
+  @font-face { font-family: 'Young Serif'; src: url(serif.ttf) format('truetype'); font-display: swap; }
+  :root { --ink: #F1ECE3; --night: #0A090D; --lilac: #B9A6F0; }
+  * { box-sizing: border-box; margin: 0; }
+  html, body { height: 100%; }
+  body {
+    background: var(--night); color: var(--ink);
+    font-family: Manrope, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+    display: grid; place-items: center; min-height: 100svh; overflow-x: hidden;
+  }
+  .bg { position: fixed; inset: 0; background: url(bg.webp) center / cover no-repeat; transform: scale(1.06); animation: drift 24s ease-in-out infinite alternate; }
+  .bg::after { content: ''; position: absolute; inset: 0; background: radial-gradient(ellipse at 50% 45%, rgba(10,9,13,.25), rgba(10,9,13,.82) 75%); }
+  @keyframes drift { to { transform: scale(1.14) translate(-1.5%, -1%); } }
+  main { position: relative; text-align: center; padding: 48px 16px 40px; max-width: 560px; width: 100%; }
+  .icon { width: 112px; height: 112px; border-radius: 26px; box-shadow: 0 18px 70px rgba(185,166,240,.4); }
+  h1 { font-family: 'Young Serif', Georgia, serif; font-weight: 400; font-size: clamp(56px, 14vw, 92px); letter-spacing: -1px; margin-top: 26px; line-height: 1; }
+  .tag { color: var(--lilac); font-size: 19px; margin-top: 12px; letter-spacing: .3px; }
+  .lead { margin: 22px auto 0; max-width: 420px; font-size: 17px; line-height: 1.55; opacity: .82; }
+  .stores { display: flex; gap: 14px; justify-content: center; flex-wrap: wrap; margin-top: 36px; }
+  .store {
+    display: flex; align-items: center; gap: 12px; min-width: 210px; padding: 13px 22px; border-radius: 16px;
+    color: var(--ink); text-decoration: none; background: rgba(10,9,13,.62); border: 1.5px solid rgba(241,236,227,.4);
+    backdrop-filter: blur(10px); transition: transform .2s ease, border-color .2s ease, background .2s ease;
+  }
+  .store:hover, .store:focus-visible { transform: translateY(-2px); border-color: var(--lilac); background: rgba(40,30,70,.7); outline: none; }
+  .store svg { width: 30px; height: 30px; flex: none; fill: currentColor; }
+  .store small { display: block; font-size: 12px; opacity: .75; text-align: left; }
+  .store b { display: block; font-size: 21px; font-weight: 600; text-align: left; line-height: 1.15; }
+  .free { margin-top: 20px; font-size: 14px; opacity: .6; }
+  .chips { display: flex; gap: 8px; justify-content: center; flex-wrap: wrap; margin-top: 30px; }
+  .chips span { font-size: 13px; padding: 7px 13px; border-radius: 99px; background: rgba(241,236,227,.08); border: 1px solid rgba(241,236,227,.14); }
+  footer { margin-top: 42px; font-size: 13px; opacity: .55; }
+  footer a { color: inherit; }
+  @media (prefers-reduced-motion: reduce) { .bg { animation: none; } .store { transition: none; } }
+</style>
+</head>
+<body>
+<div class="bg" aria-hidden="true"></div>
+<main>
+  <img class="icon" src="icon.png" alt="852Hz uygulama simgesi" width="112" height="112">
+  <h1>852Hz</h1>
+  <p class="tag">Sleep · Focus · Calm</p>
+  <p class="lead">Frekanslar, binaural ritimler ve doğa sesleri. Dört sese kadar karıştır, zamanlayıcı kur, gerisini bırak.</p>
+  <div class="stores">
+    <a class="store" id="ios" href="https://apps.apple.com/app/id6830692340" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M16.37 12.58c-.02-2.2 1.8-3.26 1.88-3.31-1.03-1.5-2.62-1.7-3.18-1.73-1.35-.14-2.64.8-3.33.8-.69 0-1.74-.78-2.86-.76-1.47.02-2.83.86-3.59 2.17-1.53 2.65-.39 6.58 1.1 8.73.73 1.05 1.6 2.23 2.73 2.19 1.1-.04 1.51-.71 2.84-.71 1.32 0 1.7.71 2.86.69 1.18-.02 1.93-1.07 2.65-2.13.84-1.22 1.18-2.4 1.2-2.46-.03-.01-2.3-.88-2.3-3.48zM14.2 6.12c.6-.73 1.01-1.75.9-2.77-.87.04-1.92.58-2.54 1.31-.56.64-1.05 1.68-.92 2.67.97.08 1.96-.49 2.56-1.21z"/></svg>
+      <span><small>Download on the</small><b>App Store</b></span>
+    </a>
+    <a class="store" id="play" href="https://play.google.com/store/apps/details?id=com.dehbkoclugu.neurosound" rel="noopener">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.6 1.8c-.3.3-.4.7-.4 1.2v18c0 .5.1.9.4 1.2l10-10.2L3.6 1.8zm11 9.2 2.9-2.9L5.3 1.2c-.4-.2-.8-.3-1.1-.2l10.4 10zm0 2-10.4 10c.3.1.7 0 1.1-.2l12.2-6.9-2.9-2.9zm6.4-3.7-2.6-1.5-3.1 3.2 3.1 3.2 2.6-1.5c.7-.4 1.1-1 1.1-1.7s-.4-1.3-1.1-1.7z"/></svg>
+      <span><small>Get it on</small><b>Google Play</b></span>
+    </a>
+  </div>
+  <p class="free">Ücretsiz indir · Hesap gerekmez · Çevrimdışı çalışır</p>
+  <div class="chips" aria-label="Öne çıkanlar">
+    <span>852 Hz &amp; Solfeggio</span><span>Binaural ritimler</span><span>Yağmur, okyanus, orman</span><span>4 katmanlı mikser</span>
+  </div>
+  <footer><a href="/apps/neurosound/">852Hz hakkında</a> · <a href="/">CEY Studio</a></footer>
+</main>
+<script>
+  // Keep campaign tags on the Play button for desktop visitors too.
+  if (window.STORE) document.getElementById('play').href = window.STORE.play;
+</script>
+</body>
+</html>
